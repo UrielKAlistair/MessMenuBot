@@ -10,3 +10,5 @@ Further, Since web servers are multi threaded, it was not possible to use conven
 I learnt that any data that was needed across server responses deserves a dedicated storage. I used a text file to store the variable I wanted. 
 
 In the end, I had to settle for this ping based solution. It's rather optimal, dare I say. The only issue is the external reliance on pings.
+
+main.py has the core server hosting code. send_msg.py defines a function to send a request to WhatsApp's api.
